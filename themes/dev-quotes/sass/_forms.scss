@@ -1,0 +1,68 @@
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+
+/* Buttons */
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    font-family: 'Exo';
+    border: 1px solid;
+    border-color: $color-mark;
+    border-radius: 3px;
+    background: none; // box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+    color: $color-mark;
+    font-size: 1rem;
+	line-height: 1;
+	padding: .7rem 1.8rem;
+    @include desktop {
+        font-size: 1.2rem;
+        padding: 1rem 2.3rem 1rem;
+        margin: 0 auto;
+    }
+    display: block;
+    &:hover {
+        color: #006600;
+        border-color: #006600;
+    }
+    &:active,
+    &:focus {
+        color: $color-mark;
+        border-color: $color-mark;
+        outline: 0;
+    }
+}
+
+/* Fields */
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+    font-family: 'Exo'; 
+    color: $color-text;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    &:focus {
+        color: $color-text;
+        outline: 0;
+    }
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"] {
+    font-family: 'Exo'; 
+    padding: 3px;
+}
+
+textarea {
+    padding-left: 3px;
+    width: 100%;
+}

@@ -10,9 +10,9 @@ plugins/*
 
 # Ignore everything in "themes" except the active theme. #
 themes/*
-!themes/quotes-dev/
+!themes/dev-quotes/
 # Ignore packages #
-themes/iquotes-dev/node_modules/
+themes/dev-quotes/node_modules/
 
 # Ignore OS files #
 .DS_Store
