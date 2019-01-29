@@ -2,6 +2,7 @@
 
 One page functional web page inspired by Quotes on Design.
 
+![dev quotes](https://user-images.githubusercontent.com/30381475/51880762-5484ca80-232d-11e9-90f1-47ff26ee0fc5.png)
 
 ## TECHNOLOGIES
 
